@@ -1,0 +1,31 @@
+{
+  "name": "djs-template",
+  "version": "1.0.0",
+  "description": "A template made for the new discordjs that will make my job easier",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "discordapp",
+    "core",
+    "client",
+    "discord"
+  ],
+  "author": "romanwashere",
+  "license": "MIT",
+  "devDependencies": {
+    "discord-api-types": "^0.37.39",
+    "eslint": "^8.38.0"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.6.1",
+    "@discordjs/core": "^0.5.2",
+    "@discordjs/rest": "^1.7.0",
+    "@discordjs/ws": "^0.8.1"
+  }
+}
